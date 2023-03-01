@@ -1,0 +1,15 @@
+.listHd{
+    padding: 10px;
+}
+
+.singleProd{
+    border: 2px solid #000;
+    padding: 10px;
+    width: 30%;
+}
+
+.listCont{
+   border-top:2px solid #000 ;
+   padding: 20px;
+   margin:10px;
+}
