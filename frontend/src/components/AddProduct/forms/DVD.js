@@ -1,11 +1,11 @@
 import React from "react";
 
-function DVD() {
+function DVD(props) {
   return (
-    <div>
+    <>
       <label htmlFor="">Size(MB)</label>
-      <input type="text" id="size" />
-    </div>
+      <input type="text" id="size" onChange={props.handleChange} />
+    </>
   );
 }
 

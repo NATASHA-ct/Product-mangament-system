@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Book() {
+function Book(props) {
   return (
-    <div>
+    <>
       <label htmlFor="">Weight (KG)</label>
-      <input type="text" id='weight'/>
-    </div>
+      <input type="text" id="weight" onChange={props.handleChange} />
+    </>
   );
 }
 
