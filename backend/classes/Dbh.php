@@ -13,8 +13,8 @@ class Database
         }
     }
 
-    // public function get()
-    // {
-    //     return $this->connection;
-    // }
+    public function get()
+    {
+        return $this->connection;
+    }
 };
